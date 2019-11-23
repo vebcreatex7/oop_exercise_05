@@ -1,0 +1,40 @@
+push - to push figure to stack
+insert - to insert figure to stack
+pop - to pop figure from Stack
+erase - to delete figure from Stack
+top - to show first figure
+for_each - to print figures
+count_if - to print quantity of figures with square less then given
+exit - to finish execution of program
+push
+enter coordinates
+0 0 1 1 2 1 3 0
+insert
+enter index
+1
+enter coordinates
+0 0 2 2 4 2 6 0
+top
+0 0 1 1 2 1 3 0 
+for_each
+0 0 1 1 2 1 3 0 
+0 0 2 2 4 2 6 0 
+push
+enter coordinates
+0 0 3 3 6 3 9 0
+count_if
+enter square
+10
+2
+pop
+top
+0 0 1 1 2 1 3 0 
+erase
+enter index
+2
+Out of range
+erase 1
+enter index
+top
+0 0 1 1 2 1 3 0 
+exit
